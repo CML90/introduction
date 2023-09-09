@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(143, 203, 255);
+}
+
+.Sun {
+  border-radius: 50px;
+  background-color: rgba(255, 174, 61, 0.988);
+  width: 20vw;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GD{
+  margin: 0;
+  color: rgb(255, 255, 105);
+}
+
+label{
+  color: rgb(12, 8, 46);
+}
+
+button{
+  color:rgb(1, 1, 50);
+  background-color: rgb(255, 255, 105);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+aside{
+  width: 25vw;
+  height: 100vh;
+  background-color: rgb(153, 199, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgCont{
+  border-radius: 2px;
+  width: 90%;
+  height: 87%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.intro{
+  background-color: rgb(210, 234, 255);
+  width: 75vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introdiv{
+  background-color: rgb(153, 199, 239);
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.gtky{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NM{
+  margin:0 ;
+  color: rgb(12, 8, 46);
+}
+
+.center{
+  text-align: center;
+  color: rgb(241, 174, 98);
+}
+
+h2{
+  color: rgb(255, 247, 138);
+}
+
+
+img{
+  width: 80%;
+  height: 30%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+
+
+
